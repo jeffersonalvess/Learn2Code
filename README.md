@@ -12,7 +12,7 @@ Learn2Code idea comes from a conversation with a friend of mine some time ago. H
 Content
 -------------
 ####Screenshots
-![appshots](https://cloud.githubusercontent.com/assets/7515790/14260388/f0bfd496-fa70-11e5-9200-cbbb3bc660dc.png)
+![appshots](https://cloud.githubusercontent.com/assets/7515790/15961129/ba24ca04-2ec8-11e6-8370-3eae04eb7d4b.png)
 
 ####Live Demo
 [Live Demo](https://d194f95244.pythonanywhere.com/FinalProject/default/index)
