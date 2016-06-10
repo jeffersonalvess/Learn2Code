@@ -2,17 +2,11 @@
 ![logo](https://cloud.githubusercontent.com/assets/7515790/15960455/88e32d26-2ec5-11e6-8bd6-0f16bd860660.png)
 </center>
 
-Learn2Code is an web2py web application developed as final project to DePaul University CSC 333 class.
+Learn2Code is an web2py web application developed as final project to DePaul University CSC 333 class as a prototype for a largest future project.
 
-What is Care about?
+What is Learn2Code about?
 -------------
-Care is a driver’s network that focus on helping young drivers to improve their driving behavior and spread the idea by interacting with their friends and other users through the app. 
-
-Care's Goal
--------------
-Care's goal is to create good habits on teenagers drivers. The app uses a reward program and attractive gamification concepts to engage teenagers and help them to learn how to drive better. Care uses phone sensors and Allstate Driving Engine API to track driver's speeding, hard breaking and dangerous curves. 
-
-The app produces challenges to stimulate good driving behavior, and the user earns points for being a good driver. Care also allows users to challenge their friends, and rate other drivers based on the data collected during their trips. The user can also schedule maintenance alerts and answer quizzes related with driving safety.
+Learn2Code idea comes from a conversation with a friend of mine some time ago. He had the idea to create a web application to help freshman students how to code. He worked as a tutor on his university and he felt that some of the tools available are not enough, and sometimes complicated to some students. Another complication is the language barrier, most of these sites are available only in English and students from countries that doesn’t have English as the main language usually struggle even more to learn.
 
 
 Content
@@ -20,21 +14,13 @@ Content
 ####Screenshots
 ![appshots](https://cloud.githubusercontent.com/assets/7515790/14260388/f0bfd496-fa70-11e5-9200-cbbb3bc660dc.png)
 
-####Presentation
-[![Presentation](http://img.youtube.com/vi/cLIKwnn0e-s/0.jpg)](https://www.youtube.com/watch?v=cLIKwnn0e-s)
+####Live Demo
+[Live Demo](https://d194f95244.pythonanywhere.com/FinalProject/default/index)
 
-> **Materials:**
 
-> - [Presentation Slides](https://github.com/jeffersonalvess/CareApp/files/203193/Final-Presentation.pptx)
-> - [Presentation Handout](https://github.com/jeffersonalvess/CareApp/files/203195/CARE-Handout.pdf)
-
-Team
+LinkedIn
 -------------
-- [Jefferson Alves](https://www.linkedin.com/in/jeffersoanlvess)
-- [Lucas Barbosa](https://www.linkedin.com/in/lucas-nunes-barbosa-09862276/en)
-- [Matheus Zamberlan](https://www.linkedin.com/in/matheus-zamberlan-19a8a7109)
-- [Miller Horvath](https://www.facebook.com/miller.horvath)
-- [Renato Leonel] (https://www.linkedin.com/in/renatoleonel/en)
+- [Jefferson Alves](https://www.linkedin.com/in/jeffersonalvess)
 
 
 License
