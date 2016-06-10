@@ -1,0 +1,60 @@
+<!--This block imports needed stuff to the page -->
+{{left_sidebar_enabled=False,('message' in globals())}}
+{{extend 'layout.html'}}
+
+{{if 'message' in globals():}}
+<h2>{{=message}}</h2>
+
+
+{{if practice:}}
+<p class="lead">
+    {{=T(practice.topic)}}
+    {{if auth.is_logged_in():}}
+        {{=A(SPAN(_class="glyphicon glyphicon-floppy-disk"), callback=URL('default', 'savetobookmarks?type=practice&id=' + request.args[1]))}}
+
+        {{if (2 in auth.user_groups):}}
+            {{=A(SPAN(_class="glyphicon glyphicon-pencil"), _href=URL('default', 'create/practice/' + request.args[1]))}}
+        {{pass}}
+    {{pass}}
+</p>
+
+<h5>Language: <small>{{=practice.codelanguage}}</small> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Difficulty: <small>{{=practice.difficulty}}</small></h5>
+
+<br>
+<p class="lead">{{=T('Exercise: ' + practice.title)}}</p>
+
+<h4>Prerequisites</h4>
+{{=XML(practice.prerequisites, sanitize=False)}}
+
+<br>
+<h4>Description</h4>
+{{=XML(practice.description, sanitize=False)}}
+
+<br>
+<button data-toggle="collapse" data-target="#demo">Show exercise Answer</button>
+
+<br>
+<div id="demo" class="collapse">
+{{=XML(practice.answer, sanitize=False)}}
+</div>
+
+<br><br>
+
+{{pass}}
+{{pass}}
+
+{{block left_sidebar}}
+<div class="panel panel-info">
+
+    <div class="panel-heading">
+        <h3 class="panel-title">{{=message}}</h3>
+    </div>
+
+    <ul class="list-group">
+       {{for row in rows:}}
+            <li class="list-group-item">{{=A(T(str(row.title)), _href=URL('default', 'practice', args=[request.args[0], str(row.id)]))}}</li>
+        {{pass}}
+    </ul>
+
+</div>
+{{end}}

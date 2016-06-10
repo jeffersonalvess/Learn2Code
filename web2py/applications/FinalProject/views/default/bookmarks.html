@@ -1,0 +1,50 @@
+<!--This block imports needed stuff to the page -->
+{{('message' in globals())}}
+{{extend 'layout.html'}}
+
+<h3>Learn Bookmarks</h3>
+{{if learn:}}
+<div class="container">
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>Language</th>
+        <th>Topic</th>
+        <th>Delete</th>
+      </tr>
+    </thead>
+    <tbody>
+    {{for item in learn:}}
+    {{=TR(TD(T(item[0])), TD(A(T(item[1]), _href=URL('finalproject/default', 'learn/' + item[2], item[3]))), TD(A(SPAN(_class="glyphicon glyphicon-remove"), _class='text-danger', _href=URL('finalproject/default', 'deletebookmarks', item[4]))))}}
+    {{pass}}
+    </tbody>
+  </table>
+</div>
+
+{{else:}}
+    <h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; No lessons found.</h4>
+{{pass}}
+
+
+<br><br>
+<h3>Practice Bookmarks</h3>
+{{if practice:}}
+<div class="container">
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>Language</th>
+        <th>Topic</th>
+        <th>Delete</th>
+      </tr>
+    </thead>
+    <tbody>
+    {{for item in practice:}}
+    {{=TR(TD(T(item[0])), TD(A(T(item[1]), _href=URL('finalproject/default', 'practice/' + item[2], item[3]))), TD(A(SPAN(_class="glyphicon glyphicon-remove"), _class='text-danger', _href=URL('finalproject/default', 'deletebookmarks', item[4]))))}}
+    {{pass}}
+    </tbody>
+  </table>
+</div>
+{{else:}}
+    <h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; No practices found.</h4>
+{{pass}}

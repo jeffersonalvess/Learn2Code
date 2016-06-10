@@ -1,0 +1,80 @@
+{{extend 'layout.html'}}
+
+{{block header}}
+<header>
+    <!-- Bootstrap carrousel example available at http://www.w3schools.com/bootstrap/bootstrap_carousel.asp -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <center><img src="../static/images/background.jpg" alt="Chania"></center>
+                <div class="carousel-caption">
+                    <h2 id="web2py-logo"><b>learn<span style="font-size: 42px;">2</span>code</b></h2>
+                    <p>Learn how to code in a intuitive and easy way.</p>
+                </div>
+            </div>
+
+            <div class="item">
+                <center><img src="../static/images/background.jpg" alt="Chania"></center>
+                <div class="carousel-caption">
+                    <h2 id="web2py-logo"><b>learn<span style="font-size: 42px;">2</span>code</b></h2>
+                    <p>Find the content you need by navigating through topics.</p>
+                </div>
+            </div>
+
+            <div class="item">
+                <center><img src="../static/images/background.jpg" alt="Chania"></center>
+                <div class="carousel-caption">
+                    <h2 id="web2py-logo"><b>learn<span style="font-size: 42px;">2</span>code</b></h2>
+                    <p>Fast and straightforward lessons with exercises to practice.</p>
+                </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+</header>
+{{end}}
+
+
+<div class="row">
+    <div class="center">
+        <div class="col-md-6">
+            <a href="https://www.linkedin.com/in/jeffersonalvess">
+                <img src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAYXAAAAJDU5NDA3MTNjLTUwODUtNDI1Yi1hYmUzLTYwNzg0NDI3OTBiNQ.jpg"
+                     class="img-circle" alt="Person" height="200"/>
+            </a>
+            <h3>Jefferson Alves <br><small>Web Developer</small></h3>
+        </div>
+        <div class="col-md-6">
+            <a href="https://www.linkedin.com/in/lucas-nunes-barbosa-09862276/en">
+                <img src="https://media.licdn.com/media/AAEAAQAAAAAAAAYBAAAAJDAwOWJhMmMwLWJmZjEtNGY2Ny1hNDg1LWU4Njc5YTBjNjAzYg.jpg"
+                     class="img-circle" alt="Person" height="200"/>
+            </a>
+            <h3>Lucas Barbosa <br> <small>Founder</small></h3>
+        </div>
+    </div>
+</div>
+
+<br><br>
+<div class="container">
+    <div class="jumbotron">
+        <p>Check out the documentation with features and details about <b>learn2code</b> project: {{=A('Download PDF', _href=URL('static/documentation', 'Learn2Code_Documentation.pdf'))}}</p>
+    </div>
+</div>
