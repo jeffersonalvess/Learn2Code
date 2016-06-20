@@ -27,7 +27,7 @@ License
 -------------
 MIT License
 
-Copyright (c) 2016 Care App
+Copyright (c) 2016 Learn2Code
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
