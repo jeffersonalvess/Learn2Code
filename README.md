@@ -1,5 +1,3 @@
-
-# Learn2Code
 <p align="center">
   <img height="200" src="https://cloud.githubusercontent.com/assets/7515790/15960455/88e32d26-2ec5-11e6-8bd6-0f16bd860660.png">
 </p>
