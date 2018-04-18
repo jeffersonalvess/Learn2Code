@@ -14,9 +14,6 @@ Content
 #### Screenshots
 ![appshots](https://cloud.githubusercontent.com/assets/7515790/15961250/530f776e-2ec9-11e6-84e2-06929446e7df.png)
 
-#### Live Demo
-[Live Demo](https://d194f95244.pythonanywhere.com/FinalProject/default/index)
-
 
 LinkedIn
 -------------
