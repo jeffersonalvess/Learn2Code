@@ -1,6 +1,8 @@
-<center>
-![logo](https://cloud.githubusercontent.com/assets/7515790/15960455/88e32d26-2ec5-11e6-8bd6-0f16bd860660.png)
-</center>
+
+# Learn2Code
+<p align="center">
+  <img height="200" src="https://cloud.githubusercontent.com/assets/7515790/15960455/88e32d26-2ec5-11e6-8bd6-0f16bd860660.png">
+</p>
 
 Learn2Code is an web2py web application developed as final project to DePaul University CSC 333 class as a prototype for a largest future project.
 
@@ -11,10 +13,10 @@ Learn2Code idea comes from a conversation with a friend of mine some time ago. H
 
 Content
 -------------
-####Screenshots
+#### Screenshots
 ![appshots](https://cloud.githubusercontent.com/assets/7515790/15961250/530f776e-2ec9-11e6-84e2-06929446e7df.png)
 
-####Live Demo
+#### Live Demo
 [Live Demo](https://d194f95244.pythonanywhere.com/FinalProject/default/index)
 
 
